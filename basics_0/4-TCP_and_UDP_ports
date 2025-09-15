@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
-# Script that displays listening ports showing PID and program name
+#!/bin/bash
+# Script to display listening TCP/UDP ports with PID and program name
 
-netstat -lp
+sudo netstat -tunlp
